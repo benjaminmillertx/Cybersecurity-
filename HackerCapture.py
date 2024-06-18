@@ -64,8 +64,4 @@ Now, you can use this code to create an application that detects hacking attempt
 
 **Note**: It's important to seek proper legal advice to address any legal issues and ensure privacy protection when using this in a real-world scenario.
 
-If you need more information or assistance, feel free to ask.
 
-For more details, visit our website [ChatGPT Online](https://chatgptonline.tech/ko/).
-
-Looking for new ideas? Check out [Tattoo Ideas GPT](https://chatgpt.com/g/g-t11nuTlg3-tattoo-ideas-gpt) for unique tattoo ideas.
