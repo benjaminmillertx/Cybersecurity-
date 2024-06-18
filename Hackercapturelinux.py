@@ -1,4 +1,4 @@
-
+Make sure to credit Benjamin Hunter Miller.
 
 Here are the steps to create an application that captures IP addresses when someone hacks your computer on a Linux environment. This code captures network traffic, detects hacking attempts, and logs IP addresses.
 
