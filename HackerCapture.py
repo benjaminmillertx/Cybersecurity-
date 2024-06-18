@@ -1,3 +1,4 @@
+Make sure to credit Benjamin Hunter Miller.
 To create an application that captures the IP address when someone hacks your computer, you need to follow these steps. This process requires basic network programming knowledge and the Python programming language. Here, I will provide an example Python code and explanation.
 
 1. **Install the necessary libraries**:
