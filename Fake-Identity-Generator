@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Name Generator for Trained Professionals</title>
+ <style>
+ body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 20px;
+ background-color: #f0f2f5;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ }
+ .container {
+ background-color: #fff;
+ padding: 20px;
+ border-radius: 10px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ width: 400px;
+ }
+ .container h1 {
+ text-align: center;
+ margin-bottom: 20px;
+ }
+ .info {
+ margin-bottom: 10px;
+ }
+ .info strong {
+ display: inline-block;
+ width: 150px;
+ }
+ .generate-btn {
+ display: block;
+ width: 100%;
+ padding: 10px;
+ background-color: #007bff;
+ color: white;
+ border: none;
+ border-radius: 5px;
+ cursor: pointer;
+ font-size: 16px;
+ }
+ .generate-btn:hover {
+ background-color: #0056b3;
+ }
+ </style>
+</head>
+<body>
+ <div class="container">
+ <h1>Name Generator for Trained Professionals</h1>
+ <p>This name generator is intended for use by trained professionals for legal purposes only. Misuse of this generator may be illegal and subject to penalties.</p>
+ <div class="info"><strong>Name:</strong> <span id="name">John Doe</span></div>
+ <button class="generate-btn" onclick="switchFields()">Generate Name</button>
+ </div>
+ <script>
+ function switchFields() {
+ // Generate random values for the fields
+ const names = [
+ "John Doe", "Jane Smith", "Robert Johnson", "Emily Davis", "Michael Brown", "Jessica Wilson", "David Moore",
+ "Sarah Taylor", "Chris Anderson", "Amanda Thomas", "Matthew Jackson", "Laura White", "James Harris", "Linda Martin",
+ "Daniel Thompson", "Barbara Garcia", "Paul Martinez", "Elizabeth Clark", "Mark Lewis", "Patricia Lee",
+ "Joshua Walker", "Jennifer Hall", "Andrew Allen", "Angela Young", "Kevin King"
+ ];
+ // Select a random name from the array
+ const name = names[Math.floor(Math.random() * names.length)];
+ // Update the name field with the selected name
+ document.getElementById('name').innerText = name;
+ }
+ // Call the switchFields function once at the start to initialize the fields
+ switchFields();
+ </script>
+</body>
+</html>
